@@ -1,5 +1,6 @@
 ipykernel
 ipywidgets
+python-dotenv
 tqdm
 numpy
 pandas
