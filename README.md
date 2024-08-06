@@ -4,6 +4,11 @@
 - [Keras pre-trained models](https://keras.io/api/applications/)
 - [MLflow](https://mlflow.org/docs/latest/index.html)
 
+- MLFLOW environment variables:
+    - `export MLFLOW_TRACKING_URI=<TRACK URI>`
+    - `export MLFLOW_TRACKING_USERNAME=<USERNAME>`
+    - `export MLFLOW_TRACKING_PASSWORD=<PASSWORD>`
+
 - DVC:
     - Create the `dvc.yaml` file
     - Execute: `dvc init`
