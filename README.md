@@ -9,7 +9,10 @@
     - `export MLFLOW_TRACKING_USERNAME=<USERNAME>`
     - `export MLFLOW_TRACKING_PASSWORD=<PASSWORD>`
 
-- DVC:
+- DVC commands:
     - Create the `dvc.yaml` file
     - Execute: `dvc init`
     - Execute: `dvc repro`
+    - Generate dependency graph: `dvc dag`
+    
+    ![dvc dag](img/dvc_dag.png)
