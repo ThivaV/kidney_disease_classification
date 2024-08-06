@@ -4,7 +4,7 @@ import tarfile
 import tensorflow as tf
 from pathlib import Path
 
-from src.kidney_disease_classification.entity.config_entity import PrepareBaseModelConfig
+from kidney_disease_classification.entity.config_entity import PrepareBaseModelConfig
 
 class PrepareBaseModel:
     def __init__(self, config: PrepareBaseModelConfig):

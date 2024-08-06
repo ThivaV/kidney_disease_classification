@@ -4,7 +4,7 @@ import tarfile
 import tensorflow as tf
 import time
 from pathlib import Path
-from src.kidney_disease_classification.entity.config_entity import TrainingConfig
+from kidney_disease_classification.entity.config_entity import TrainingConfig
 
 class Training:
     def __init__(self, config: TrainingConfig):

@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Any
 from ensure import ensure_annotations                   # type: ignore
 from box.exceptions import BoxValueError                # type: ignore
-from src.kidney_disease_classification import logger
+from kidney_disease_classification import logger
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:

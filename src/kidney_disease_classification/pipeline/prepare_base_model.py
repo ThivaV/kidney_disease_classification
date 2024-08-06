@@ -1,6 +1,6 @@
-from src.kidney_disease_classification.config.configuration import ConfigurationManager
-from src.kidney_disease_classification.components.prepare_base_model import PrepareBaseModel
-from src.kidney_disease_classification import logger
+from kidney_disease_classification.config.configuration import ConfigurationManager
+from kidney_disease_classification.components.prepare_base_model import PrepareBaseModel
+from kidney_disease_classification import logger
 
 STAGE_NAME = 'Prepare base model'
 
