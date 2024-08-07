@@ -17,7 +17,7 @@
     
     ![dvc dag](docs/img/dvc_dag.png)
 
-- Deployment
+- CI/CD
     - Steps
         1. Build docker image
         2. Push the docker image to ECR
@@ -28,7 +28,7 @@
         - `AmazonEC2ContainerRegistryFullAccess`
         - `AmazonEC2FullAccess`
     - Create ECR repo to store/save docker image
-        - Save the URI: `566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken`
+        - Save the URI: `377837199370.dkr.ecr.ap-southeast-1.amazonaws.com/kidney_disease_classification`
     - Create EC2 machine (Ubuntu)
     - Open EC2 and Install docker in EC2 Machine        
         ```bash
@@ -50,7 +50,7 @@
         ```bash
         AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
         AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
-        AWS_REGION=us-east-1
-        AWS_ECR_LOGIN_URI=demo>> 566373416292.dkr.ecr.ap-south-1.amazonaws.com
-        ECR_REPOSITORY_NAME=simple-app
+        AWS_REGION=ap-southeast-1
+        AWS_ECR_LOGIN_URI=377837199370.dkr.ecr.ap-southeast-1.amazonaws.com/kidney_disease_classification
+        ECR_REPOSITORY_NAME=kidney_disease_classification
         ```
