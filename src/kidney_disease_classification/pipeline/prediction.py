@@ -8,9 +8,10 @@ class PredictionPipeline:
         self.filename = filename
 
     def predict(self):
-        # load model
-        # model = load_model(os.path.join("model", "model.h5"))
-        model = load_model(os.path.join("artifacts", "training", "model.h5"))
+        # run the model in the server
+        model = load_model(os.path.join("model", "model.h5"))
+        # run model locally
+        # model = load_model(os.path.join("artifacts", "training", "model.h5"))
 
         imagename = self.filename
         test_image = image.load_img(imagename, target_size = (224,224))

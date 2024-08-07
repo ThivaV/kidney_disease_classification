@@ -168,3 +168,5 @@ mlruns/
 # dvc.lock
 
 input_image.jpg
+
+models/*.h5
