@@ -15,4 +15,4 @@
     - Execute: `dvc repro`
     - Generate dependency graph: `dvc dag`
     
-    ![dvc dag](img/dvc_dag.png)
+    ![dvc dag](docs/img/dvc_dag.png)
