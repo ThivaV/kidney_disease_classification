@@ -28,7 +28,7 @@
         - `AmazonEC2ContainerRegistryFullAccess`
         - `AmazonEC2FullAccess`
     - Create ECR repo to store/save docker image
-        - Save the URI: `377837199370.dkr.ecr.ap-southeast-1.amazonaws.com/kidney_disease_classification`
+        - Save the URI: `3785371399370.dkr.ecr.ap-southeast-1.amazonaws.com/kidney_disease_classification`
     - Create EC2 machine (Ubuntu)
     - Open EC2 and Install docker in EC2 Machine        
         ```bash
@@ -51,6 +51,6 @@
         AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
         AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
         AWS_REGION=ap-southeast-1
-        AWS_ECR_LOGIN_URI=377837199370.dkr.ecr.ap-southeast-1.amazonaws.com/kidney_disease_classification
+        AWS_ECR_LOGIN_URI=3785371399370.dkr.ecr.ap-southeast-1.amazonaws.com/kidney_disease_classification
         ECR_REPOSITORY_NAME=kidney_disease_classification
         ```
